@@ -309,3 +309,71 @@ nav a:hover {
     background-color: #800080; /* Purple fill on hover */
     color: #ffffff; /* Keep the arrow white */
 }
+
+/* Features Section Styling */
+.features-section {
+    padding: 70px 20px; /* Add space around the section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #05172c; /* Dark background for contrast */
+}
+
+.features-box {
+    position: relative;
+    padding: 30px; /* Padding inside the box */
+    border: 1px solid #40E0D0; /* Turquoise border */
+    border-radius: 15px; /* Curved edges for the box */
+    background-color: #222533; /* Grey background for the box */
+    margin: 0 auto; /* Center the box */
+    max-width: 1100px; /* Match the width of the video box */
+    text-align: center; /* Center-align text */
+}
+
+.features-box h2 {
+    font-size: 40px; /* Heading size */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #40E0D0; /* Turquoise heading */
+}
+
+/* Table Styling */
+.features-table {
+    width: 100%; /* Full width of the box */
+    border-collapse: collapse; /* Remove gaps between table cells */
+    margin: 20px 0; /* Space above and below the table */
+    color: #ffffff; /* Light text color */
+    text-align: center; /* Center-align table text */
+}
+
+.features-table th,
+.features-table td {
+    border: 1px solid #40E0D0; /* Turquoise border for cells */
+    padding: 15px; /* Add padding inside cells */
+    font-size: 18px; /* Text size */
+}
+
+.features-table th {
+    background-color: #333a4d; /* Darker background for headers */
+    color: #40E0D0; /* Turquoise text for headers */
+    font-weight: bold;
+}
+
+.features-table td {
+    background-color: #2a2f3e; /* Slightly lighter background for cells */
+}
+
+.features-table .table-footer {
+    font-style: italic; /* Italicize footer text */
+    background-color: #333a4d; /* Match header background */
+    color: #40E0D0; /* Turquoise text */
+    padding: 20px; /* Add extra padding for emphasis */
+}
+
+/* Paragraph Styling */
+.features-paragraph {
+    font-size: 18px; /* Paragraph text size */
+    color: #ffffff; /* Light text color */
+    margin-top: 30px; /* Space above the paragraph */
+    line-height: 1.6; /* Improve readability */
+    text-align: center; /* Center-align the text */
+}
