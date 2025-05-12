@@ -22,6 +22,8 @@ body {
     background-color: #05172c;
     color: #06c6d3;
     font-size: 18px; /* Increase base font size */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
 /* Header Styling */
@@ -475,4 +477,109 @@ nav a:hover {
     margin-top: 30px; /* Space above the paragraph */
     line-height: 1.6; /* Improve readability */
     text-align: center; /* Center-align the text */
+}
+
+/* Footer Section Styling */
+.footer-section {
+    background-color: #000000; /* Pure black background */
+    color: #ffffff; /* White text color */
+    padding: 40px 0; /* Remove side padding to ensure full-width background */
+    text-align: center; /* Center-align text */
+    width: 100vw; /* Ensure the background fills the entire screen width */
+    position: relative; /* Ensure the line stays at the top */
+    margin-top: 0; /* Remove any margin above the footer */
+}
+
+.footer-top-line {
+    position: absolute; /* Position the line at the top of the footer */
+    top: 0; /* Align the line to the top of the footer */
+    left: 0; /* Align the line to the left edge */
+    width: 100vw; /* Ensure the line spans the full width of the screen */
+    height: 2px; /* Thin turquoise line */
+    background-color: #40E0D0; /* Turquoise color */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px; /* Match the width of other sections */
+    margin: 0 auto; /* Center the content */
+    padding-bottom: 20px; /* Space below the content */
+}
+
+.footer-left h3 {
+    font-size: 42px; /* Increase the font size for "CyberJeff" */
+    margin-bottom: 5px; /* Space below the title */
+    color: #40E0D0; /* Turquoise color */
+    text-align: center; /* Center-align the title */
+    width: 100%; /* Ensure it spans the full width */
+}
+
+.footer-left p {
+    font-size: 16px; /* Smaller text for the subtitle */
+    color: #ffffff; /* White text */
+}
+
+.footer-right {
+    display: flex;
+    gap: 15px; /* Space between icons */
+}
+
+.social-icon {
+    color: #ffffff; /* White icon color */
+    font-size: 20px; /* Icon size */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.social-icon:hover {
+    color: #40E0D0; /* Turquoise hover effect */
+}
+
+/* Divider Styling */
+.footer-divider {
+    margin: 20px 0; /* Space above and below the divider */
+    position: relative;
+}
+
+.footer-divider .line {
+    height: 2px; /* Thin purple line */
+    background: linear-gradient(to right, #800080, transparent, #800080); /* Faded purple line */
+    margin-bottom: 10px; /* Space below the line */
+}
+
+.footer-divider .dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between dots */
+}
+
+.footer-divider .dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; /* Make the dots circular */
+    background-color: #800080; /* Default purple color */
+}
+
+.footer-divider .dot.turquoise {
+    background-color: #40E0D0; /* Turquoise color for the center dot */
+}
+
+/* Footer Bottom Styling */
+.footer-bottom {
+    margin-top: 20px; /* Space above the bottom text */
+    font-size: 14px; /* Smaller text size */
+    color: #ffffff; /* White text */
+    line-height: 1.6; /* Improve readability */
+}
+
+.footer-bottom a {
+    color: #40E0D0; /* Turquoise link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
