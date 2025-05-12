@@ -1,0 +1,160 @@
+/* Google Fonts 
+// <weight>: Use a value from 400 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.orbitron-<uniquifier> {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+*/
+/* General Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Text Adjustments */
+body {
+    font-family: "Orbitron", sans-serif;
+    background-color: #333;
+    color: #06c6d3;
+    font-size: 18px; /* Increase base font size */
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+    color: #fff;
+    border-bottom: 1px solid #40E0D0; /* Thin turquoise line */
+}
+
+/* Header Title */
+.header-left h1 {
+    font-size: 32px; /* Larger title name */
+    font-weight: bold;
+    color: #62ebdd;
+}
+
+/* Menu Styling */
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    font-size: 18px; /* Slightly larger menu text */
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s, text-decoration 0.3s; /* Smooth transition for hover effects */
+}
+
+.menu a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    text-underline-offset: 4px; /* Add spacing between text and underline */
+    color: #62ebdd; /* Turquoise hover effect */
+}
+
+.menu a.selected {
+    text-decoration: underline; /* Underline for the selected menu item */
+    text-underline-offset: 4px; /* Add spacing between text and underline */
+    color: #62ebdd; /* Highlight the selected menu item */
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section Styling */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px; /* Padding on the sides */
+    height: 600px; /* Increased height for a larger canvas */
+    background: url('../assets/images/unique-background-pattern-design_1108393-635.avif') repeat; /* Tiled background */
+    background-size: 150px 150px; /* Keep the original size of the tiles */
+    background-position: center; /* Center the background */
+    color: #fff; /* Ensure text is readable */
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+/* Hero Section Text */
+.hero-content h2 {
+    font-size: 56px; /* Larger main title */
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #cc70fe, #007991); /* Gradient for text */
+    -webkit-background-clip: text; /* Clip background to text */
+    background-clip: text; /* Standard property */
+    color: transparent; /* Make text transparent to show gradient */
+}
+
+.hero-content h3 {
+    font-size: 28px; /* Larger subtitle */
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hero-content p {
+    font-size: 18px; /* Larger paragraph text */
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.discover-btn {
+    padding: 15px 30px; /* Make the button "fatter" */
+    font-size: 18px; /* Slightly larger button text */
+     /* Gradient background */
+    background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Hero Image and Blue Line */
+.hero-image {
+    position: relative; /* Ensure positioning for the pseudo-element */
+    align-self: flex-end; /* Move the image to the bottom of the hero section */
+}
+
+.hero-image img {
+    max-width: 472.5px; /* 5% larger than 450px */
+    max-height: 472.5px; /* 5% larger than 450px */
+    border-radius: 10px; /* Keep the rounded corners */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Shadow remains the same */
+}
+
+.hero-image::after {
+    content: '';
+    position: absolute;
+    border: 2px solid #007BFF; /* Blue edge line */
+    width: calc(100% + 15.75px); /* 5% larger than 15px */
+    height: calc(100% + 15.75px); /* 5% larger than 15px */
+    top: -7.875px; /* Adjusted for 5% increase */
+    left: -7.875px; /* Adjusted for 5% increase */
+    border-radius: 15px; /* Match the image's border-radius + gap */
+    pointer-events: none; /* Prevent interaction with the pseudo-element */
+    box-sizing: border-box; /* Ensure the border is included in the dimensions */
+}
