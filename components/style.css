@@ -19,7 +19,7 @@
 /* General Text Adjustments */
 body {
     font-family: "Orbitron", sans-serif;
-    background-color: #333;
+    background-color: #05172c;
     color: #06c6d3;
     font-size: 18px; /* Increase base font size */
 }
@@ -95,6 +95,7 @@ nav a:hover {
     background-size: 150px 150px; /* Keep the original size of the tiles */
     background-position: center; /* Center the background */
     color: #fff; /* Ensure text is readable */
+    margin-bottom: 50px; /* Add bottom margin to the hero section */
 }
 
 .hero-content {
@@ -157,4 +158,59 @@ nav a:hover {
     border-radius: 15px; /* Match the image's border-radius + gap */
     pointer-events: none; /* Prevent interaction with the pseudo-element */
     box-sizing: border-box; /* Ensure the border is included in the dimensions */
+}
+
+/* Video Section Styling */
+.video-section {
+    padding: 70px 20px; /* Increase top and bottom padding for more space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #05172c; /* Light background for contrast */
+}
+
+.video-container {
+    max-width: 1000px; /* Increased width to make the box wider */
+    width: 100%; /* Ensure responsiveness */
+    text-align: center; /* Center-align text and content */
+}
+
+.video-box {
+    position: relative;
+    padding: 30px; /* Increased padding for more space inside the box */
+    border: 1px solid #40E0D0; /* Thin turquoise border */
+    border-radius: 15px; /* Curved edges for the box */
+    background-color: #222533; /* Grey background for the box */
+    margin: 0 auto; /* Center the box */
+    max-width: 1100px; /* Increased width to make the box wider */
+    min-height: 600px; /* Added a minimum height to make the box taller */
+}
+
+.video-box h2 {
+    font-size: 40px; /* Slightly larger heading */
+    margin-bottom: 30px; /* Add more space below the title */
+    color: #007991; /* Turquoise color for the heading */
+}
+
+.video-player {
+    width: 100%; /* Make the video responsive */
+    max-width: 760px; /* Limit the video width */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #800080; /* Purple outline for the video player */
+    border-radius: 10px; /* Rounded corners for the video */
+    margin-bottom: 20px; /* Space below the video */
+}
+
+.video-description {
+    margin-top: 20px; /* Space above the description */
+    max-width: 760px; /* Match the width of the video player */
+    margin-left: auto; /* Center the description */
+    margin-right: auto; /* Center the description */
+}
+
+.video-description p {
+    font-size: 18px; /* Paragraph text size */
+    color: #ffffff; /* Lighter text color */
+    line-height: 1.6; /* Improve readability */
+    text-align: center; /* Center-align the text */
 }
