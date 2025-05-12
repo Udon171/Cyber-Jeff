@@ -37,31 +37,51 @@ header {
     border-bottom: 1px solid #40E0D0; /* Thin turquoise line */
 }
 
+/* Sticky Header Styling */
+.sticky-header {
+    position: fixed; /* Make the header stay visible while scrolling */
+    top: 0; /* Stick to the top of the page */
+    left: 0; /* Align to the left edge */
+    width: 100%; /* Full width of the screen */
+    background-color: rgba(0, 0, 0, 0.8); /* Translucent black background (80% opacity) */
+    color: #ffffff; /* White text color */
+    z-index: 1000; /* Ensure it stays above other elements */
+    padding: 10px 20px; /* Add padding for spacing */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Add a subtle shadow for depth */
+}
+
 /* Header Title */
 .header-left h1 {
-    font-size: 32px; /* Larger title name */
-    font-weight: bold;
-    color: #62ebdd;
+    font-size: 24px; /* Adjust font size for the title */
+    margin: 0; /* Remove default margin */
+    color: #40E0D0; /* Turquoise color for the title */
 }
 
 /* Menu Styling */
+.menu {
+    display: flex; /* Align menu items horizontally */
+    justify-content: flex-end; /* Align menu to the right */
+    align-items: center; /* Center menu items vertically */
+    gap: 20px; /* Space between menu items */
+}
+
 .menu ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+    list-style: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Align menu items horizontally */
+    gap: 20px; /* Space between menu items */
 }
 
 .menu a {
-    font-size: 18px; /* Slightly larger menu text */
-    text-decoration: none;
-    color: #fff;
-    transition: color 0.3s, text-decoration 0.3s; /* Smooth transition for hover effects */
+    text-decoration: none; /* Remove underline from links */
+    color: #ffffff; /* White text color */
+    font-size: 16px; /* Adjust font size */
+    transition: color 0.3s ease; /* Smooth hover effect */
 }
 
 .menu a:hover {
-    text-decoration: underline; /* Add underline on hover */
-    text-underline-offset: 4px; /* Add spacing between text and underline */
-    color: #62ebdd; /* Turquoise hover effect */
+    color: #40E0D0; /* Turquoise color on hover */
 }
 
 .menu a.selected {
