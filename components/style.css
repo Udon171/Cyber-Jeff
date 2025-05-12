@@ -214,3 +214,98 @@ nav a:hover {
     line-height: 1.6; /* Improve readability */
     text-align: center; /* Center-align the text */
 }
+
+/* Gallery Section Styling */
+.gallery-section {
+    padding: 70px 20px; /* Add space around the section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #05172c; /* Dark background for contrast */
+}
+
+.gallery-box {
+    position: relative;
+    padding: 30px; /* Padding inside the box */
+    border: 1px solid #800080; /* Purple border */
+    border-radius: 15px; /* Curved edges for the box */
+    background-color: #222533; /* Grey background for the box */
+    margin: 0 auto; /* Center the box */
+    max-width: 1100px; /* Match the width of the video box */
+    text-align: center; /* Center-align text */
+}
+
+.gallery-box h2 {
+    font-size: 40px; /* Heading size */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #800080; /* Bright purple heading */
+}
+
+.gallery-box p {
+    font-size: 18px; /* Paragraph text size */
+    color: #ffffff; /* Light text color */
+    margin-bottom: 30px; /* Space below the paragraph */
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Carousel Styling */
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px; /* Add space below the carousel */
+}
+
+.carousel-images {
+    display: flex;
+    overflow: hidden; /* Hide images outside the container */
+    width: 100%; /* Full width of the box */
+    max-width: 760px; /* Match the width of the video player */
+}
+
+.carousel-item {
+    flex-shrink: 0; /* Prevent items from shrinking */
+    width: calc(100% / 3); /* Show 3 items at a time */
+    padding: 10px; /* Add space around each image */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.carousel-item img {
+    width: 100%; /* Make the image fill the container */
+    border: 2px solid #800080; /* Purple border for each image */
+    border-radius: 10px; /* Rounded corners for the images */
+    transition: transform 0.5s ease; /* Smooth transition for sliding */
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #000000; /* Black fill */
+    color: #ffffff; /* White arrow color */
+    border: 2px solid #800080; /* Purple border */
+    border-radius: 10px; /* Curved corners */
+    width: 40px; /* Square shape */
+    height: 40px; /* Square shape */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px; /* Arrow size */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+    z-index: 10; /* Ensure arrows are above the images */
+}
+
+.carousel-arrow.left-arrow {
+    left: 10px; /* Bring the left arrow closer to the carousel */
+}
+
+.carousel-arrow.right-arrow {
+    right: 10px; /* Bring the right arrow closer to the carousel */
+}
+
+.carousel-arrow:hover {
+    background-color: #800080; /* Purple fill on hover */
+    color: #ffffff; /* Keep the arrow white */
+}
