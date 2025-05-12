@@ -377,3 +377,102 @@ nav a:hover {
     line-height: 1.6; /* Improve readability */
     text-align: center; /* Center-align the text */
 }
+
+/* Contact Section Styling */
+.contact-section {
+    padding: 70px 20px; /* Add space around the section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #05172c; /* Dark background for contrast */
+}
+
+/* Outer Contact Box */
+.contact-box {
+    position: relative;
+    padding: 30px; /* Padding inside the box */
+    border: 1px solid #800080; /* Purple border */
+    border-radius: 15px; /* Curved edges for the box */
+    background-color: #222533; /* Grey background for the box */
+    margin: 0 auto; /* Center the box */
+    max-width: 1100px; /* Match the width of the boxes above */
+    text-align: center; /* Center-align text */
+}
+
+/* Inner Contact Box */
+.inner-contact-box {
+    position: relative;
+    padding: 20px; /* Padding inside the inner box */
+    border: 1px solid #800080; /* Purple border */
+    border-radius: 10px; /* Curved edges for the inner box */
+    background-color: #2a2f3e; /* Slightly darker background for the inner box */
+    margin: 20px auto; /* Center the inner box with spacing */
+    max-width: 800px; /* Limit the width of the inner box */
+    text-align: center; /* Center-align content */
+}
+
+/* Form Styling */
+.contact-form {
+    margin: 0; /* Remove extra margin around the form */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Space between form fields */
+    text-align: left; /* Align labels and inputs to the left */
+}
+
+.form-group label {
+    display: block; /* Ensure labels are on their own line */
+    font-size: 18px; /* Label text size */
+    color: #ffffff; /* Light text color */
+    margin-bottom: 5px; /* Space below the label */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%; /* Full width of the input fields */
+    padding: 10px; /* Add padding inside the fields */
+    font-size: 16px; /* Input text size */
+    color: #ffffff; /* Light text color */
+    background-color: #2a2f3e; /* Dark background for inputs */
+    border: 1px solid #800080; /* Purple border */
+    border-radius: 5px; /* Slightly rounded corners */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #cccccc; /* Lighter placeholder text */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #a020f0; /* Brighter purple border on focus */
+}
+
+/* Button Styling */
+.send-button {
+    padding: 15px 30px; /* Add padding to the button */
+    font-size: 18px; /* Button text size */
+    color: #ffffff; /* White text color */
+    background-color: #800080; /* Purple background */
+    border: 1px solid #a020f0; /* Brighter purple border */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth hover effect */
+}
+
+.send-button:hover {
+    background-color: #a020f0; /* Brighter purple on hover */
+    border-color: #ffffff; /* White border on hover */
+}
+
+/* Paragraph Styling */
+.contact-paragraph {
+    font-size: 18px; /* Paragraph text size */
+    color: #ffffff; /* Light text color */
+    margin-top: 30px; /* Space above the paragraph */
+    line-height: 1.6; /* Improve readability */
+    text-align: center; /* Center-align the text */
+}
