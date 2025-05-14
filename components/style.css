@@ -115,9 +115,9 @@ nav a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 0 50px; /* Padding on the sides */
-    height: 600px; /* Increased height for a larger canvas */
+    height: 768px; /* Increased height for a larger canvas */
     background: url("../assets/images/unique-background-pattern-design_1108393-635.avif ") repeat; /* Tiled background */
-    background-size: 150px 150px; /* Keep the original size of the tiles */
+    background-size: 300px 300px; /* Keep the original size of the tiles */
     background-position: center; /* Center the background */
     color: #fff; /* Ensure text is readable */
     margin-bottom: 50px; /* Add bottom margin to the hero section */
@@ -222,7 +222,7 @@ nav a:hover {
     width: 100%; /* Make the video responsive */
     max-width: 760px; /* Limit the video width */
     height: auto; /* Maintain aspect ratio */
-    border: 2px solid #800080; /* Purple outline for the video player */
+    border: 1px solid #800080; /* Purple outline for the video player */
     border-radius: 10px; /* Rounded corners for the video */
     margin-bottom: 20px; /* Space below the video */
 }
@@ -317,7 +317,7 @@ nav a:hover {
     width: 100%; /* Ensure images fill their container */
     height: auto; /* Maintain aspect ratio */
     object-fit: contain; /* Ensure the image fits within the container */
-    border: 2px solid #800080; /* Purple border for each image */
+    border: 1px solid #800080; /* Purple border for each image */
     border-radius: 10px; /* Rounded corners for the images */
     transition: transform 0.5s ease; /* Smooth transition for sliding */
 }
@@ -655,7 +655,7 @@ nav a:hover {
     top: 0; /* Align the line to the top of the footer */
     left: 0; /* Align the line to the left edge */
     width: 100vw; /* Ensure the line spans the full width of the screen */
-    height: 2px; /* Thin turquoise line */
+    height: 1px; /* Thin turquoise line */
     background-color: #40E0D0; /* Turquoise color */
 }
 
