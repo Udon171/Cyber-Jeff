@@ -46,14 +46,14 @@ header {
 
 /* Sticky Header Styling */
 .sticky-header {
-    position: fixed; /* Make the header stay visible while scrolling */
-    top: 0; /* Stick to the top of the page */
-    left: 0; /* Align to the left edge */
-    width: 100%; /* Full width of the screen */
-    background-color: rgba(0, 0, 0, 0.8); /* Translucent black background (80% opacity) */
-    color: #ffffff; /* White text color */
+    display: flex;
+    justify-content: space-between; /* Heading on the left, menu on the right */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+    color: #fff;
+    border-bottom: 1px solid #40E0D0; /* Thin turquoise line */
     z-index: 1000; /* Ensure it stays above other elements */
-    padding: 10px 20px; /* Add padding for spacing */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Add a subtle shadow for depth */
 }
 
@@ -96,6 +96,87 @@ header {
     text-underline-offset: 4px; /* Add spacing between text and underline */
     color: #62ebdd; /* Highlight the selected menu item */
 }
+
+/* Burger Menu Styling */
+.burger-menu {
+    display: none; /* Hidden by default (desktop) */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 1001; /* Ensure it stays above other elements */
+}
+
+.burger-menu span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #ffffff; /* White bars */
+    border-radius: 2px;
+    transition: all 0.3s ease; /* Smooth animation */
+}
+
+/* Hide the checkbox */
+.burger-toggle {
+    display: none;
+}
+
+/* Hidden Menu Styling */
+.menu-list {
+    display: flex; /* Default horizontal layout */
+    flex-direction: row;
+    gap: 20px;
+}
+
+.menu-list.hidden {
+    display: none; /* Hide the menu by default */
+    flex-direction: column; /* Vertical layout for mobile */
+    position: absolute;
+    top: 60px; /* Below the header */
+    right: 20px; /* Align to the right */
+    background-color: rgba(0, 0, 0, 0.9); /* Dark background */
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+/* Show Menu When Active */
+.burger-toggle:checked ~ .menu-list {
+    display: flex;
+    flex-direction: column; /* Vertical layout for mobile */
+    position: absolute;
+    top: 60px; /* Below the header */
+    right: 20px; /* Align to the right */
+    background-color: rgba(0, 0, 0, 0.9); /* Dark background */
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+/* Hidden Menu Styling */
+.menu ul.hidden {
+    display: none; /* Hide the menu by default */
+    flex-direction: column; /* Vertical layout for mobile */
+    position: absolute;
+    top: 60px; /* Below the header */
+    right: 20px; /* Align to the right */
+    background-color: rgba(0, 0, 0, 0.9); /* Dark background */
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.menu ul.hidden li {
+    margin: 10px 0; /* Space between menu items */
+    text-align: center;
+}
+
+/* Show Menu When Active */
+.menu ul.active {
+    display: flex;
+}
+
 /* Navigation Bar Styling */
 nav {
     display: flex;
@@ -181,7 +262,7 @@ nav a:hover {
 .hero-image::after {
     content: '';
     position: absolute;
-    border: 2px solid #007BFF; /* Blue edge line */
+    border: 1px solid #007BFF; /* Blue edge line */
     width: calc(100% + 15.75px); /* 5% larger than 15px */
     height: calc(100% + 15.75px); /* 5% larger than 15px */
     top: -7.875px; /* Adjusted for 5% increase */
@@ -722,4 +803,448 @@ nav a:hover {
 
 .footer-bottom a:hover {
     text-decoration: underline; /* Underline on hover */
+}
+
+/* General Responsive Styling */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* For Tablets (768px and below) */
+@media (max-width: 768px) {
+    /* Header */
+    .sticky-header {
+        flex-direction: row; /* Keep heading and burger menu in a row */
+        justify-content: space-between; /* Heading on the left, burger menu on the right */
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .header-left h1 {
+        font-size: 20px; /* Slightly smaller font size for tablets */
+        text-align: left; /* Align heading to the left */
+    }
+
+    .menu ul {
+        display: none; /* Hide the menu by default */
+    }
+
+    .menu ul.hidden {
+        display: none; /* Hide the menu by default */
+    }
+
+    .burger-menu {
+        display: flex; /* Show burger menu on tablets */
+    }
+
+    .menu ul {
+        display: none; /* Hide the menu by default */
+    }
+
+    .menu ul.hidden {
+        display: none; /* Hide the menu by default */
+    }
+
+    .menu ul.active {
+        display: flex; /* Show the menu when active */
+    }
+
+    .menu-list {
+        display: none; /* Hide the menu by default */
+    }
+
+    .menu-list li {
+        margin: 10px 0; /* Space between menu items */
+        text-align: center;
+    }
+
+    /* Hero Section */
+    .hero {
+        height: auto; /* Allow height to adjust dynamically */
+        padding: 20px;
+    }
+
+    .hero-content {
+        max-width: 100%; /* Full width for smaller screens */
+        text-align: center;
+    }
+
+    .hero-content h2 {
+        font-size: 36px; /* Smaller font size for titles */
+    }
+
+    .hero-content h3 {
+        font-size: 24px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .hero-image img {
+        max-width: 300px; /* Reduce image size */
+        max-height: 300px;
+    }
+
+    /* Video Section */
+    .video-container {
+        padding: 10px;
+    }
+
+    .video-box {
+        max-width: 100%;
+    }
+
+    .video-player {
+        width: 100%; /* Make video responsive */
+        height: auto;
+    }
+
+    /* Gallery Section */
+    .gallery-container {
+        flex-wrap: wrap; /* Allow items to wrap */
+        gap: 10px; /* Reduce gap between items */
+    }
+
+    .gallery-item {
+        width: 45%; /* Adjust width for smaller screens */
+        height: auto;
+    }
+
+    /* Features Section */
+    .features-box {
+        padding: 20px;
+    }
+
+    .features-table {
+        font-size: 14px; /* Reduce font size for tables */
+    }
+
+    .features-table th,
+    .features-table td {
+        padding: 10px;
+    }
+
+    /* Contact Section */
+    .contact-box {
+        padding: 20px;
+    }
+
+    .contact-form {
+        max-width: 100%;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 14px; /* Adjust input font size */
+    }
+
+    .send-button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    /* Footer */
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-right {
+        margin-top: 10px;
+    }
+
+    .footer-divider .dots {
+        gap: 10px; /* Reduce gap between dots */
+    }
+
+    /* General Box Heading and Paragraph Styling */
+    .gallery-box h2,
+    .video-box h2,
+    .features-box h2,
+    .contact-box h2,
+    .message-box h2 {
+        font-size: 28px; /* Smaller heading size for tablets */
+    }
+
+    .gallery-box p,
+    .video-box .video-description p,
+    .features-box p,
+    .contact-box .contact-paragraph,
+    .message-paragraph {
+        font-size: 16px; /* Smaller paragraph size for tablets */
+        line-height: 1.4; /* Adjust line height for readability */
+    }
+
+    /* Reduce padding inside boxes */
+    .gallery-box,
+    .video-box,
+    .features-box,
+    .contact-box,
+    .message-box {
+        padding: 20px; /* Reduce padding for smaller screens */
+    }
+
+    /* Hidden Image Styling */
+    .hidden-image img {
+        opacity: 0; /* Hide the image initially */
+        transition: opacity 0.5s ease; /* Smooth transition for reveal */
+    }
+
+    .hidden-image:active img,
+    .hidden-image:focus img {
+        opacity: 1; /* Reveal the image on active or focus */
+    }
+}
+
+/* For Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+    /* Header */
+    .sticky-header {
+        flex-direction: row; /* Keep heading and burger menu in a row */
+        justify-content: space-between; /* Space between heading and burger menu */
+        align-items: center; /* Align items vertically */
+        padding: 10px 20px;
+    }
+
+    .header-left h1 {
+        font-size: 18px; /* Smaller font size for the heading */
+        text-align: left; /* Align heading to the left */
+        margin: 0; /* Remove extra margin */
+    }
+
+    .burger-menu {
+        display: flex; /* Show burger menu on mobile */
+        flex-direction: column;
+        justify-content: space-between;
+        width: 20px; /* Smaller width for the burger icon */
+        height: 15px; /* Smaller height for the burger icon */
+        cursor: pointer;
+        position: relative; /* Align with the heading */
+    }
+
+    .burger-menu span {
+        display: block;
+        height: 2px; /* Thinner bars */
+        width: 100%; /* Full width of the burger menu */
+        background-color: #ffffff; /* White bars */
+        border-radius: 1px; /* Slightly rounded corners */
+        transition: all 0.3s ease; /* Smooth animation */
+    }
+
+    .menu ul {
+        gap: 5px;
+    }
+
+    /* Hero Section */
+    .hero-content h2 {
+        font-size: 28px;
+    }
+
+    .hero-content h3 {
+        font-size: 20px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+    }
+
+    .hero-image {
+        align-self: center; /* Center the image horizontally */
+        margin: 0 auto; /* Ensure the image is centered */
+        margin-top: 20px; /* Add spacing above the image */
+        text-align: center; /* Center-align the image container */
+    }
+
+    .hero-image img {
+        max-width: 95%; /* Reduce image size for mobile */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Ensure the image is treated as a block element */
+        margin: 0 auto; /* Center the image within its container */
+    }
+
+    /* Gallery Section */
+    .gallery-item {
+        width: 100%; /* Full width for each item */
+    }
+
+    /* Features Section */
+    .features-table {
+        display: block; /* Treat the table as a block element */
+        border: none; /* Remove the outer border */
+    }
+
+    .features-table thead {
+        display: none; /* Hide the table header row */
+    }
+
+    .features-table tbody {
+        display: block; /* Treat the table body as a block element */
+    }
+
+    .features-table tr {
+        display: grid; /* Use grid layout for each row */
+        grid-template-rows: auto auto auto; /* Three rows: title, content, status */
+        border: 1px solid #40E0D0; /* Add a border around each entry */
+        border-radius: 10px; /* Optional rounded corners */
+        padding: 10px; /* Add padding inside each entry */
+        background-color: #222533; /* Match the table's background color */
+        margin-bottom: 10px; /* Add spacing between rows */
+    }
+
+    .features-table td {
+        display: block; /* Treat each cell as a block */
+        padding: 10px; /* Add padding inside each cell */
+        text-align: left; /* Align text to the left */
+        border-bottom: 1px solid #40E0D0; /* Add a dividing line between cells */
+    }
+
+    .features-table td:last-child {
+        border-bottom: none; /* Remove the last border */
+    }
+
+    .features-table td::before {
+        content: attr(data-label); /* Use the data-label attribute for headers */
+        display: block; /* Display the header above the content */
+        font-weight: bold; /* Make the header bold */
+        color: #40E0D0; /* Turquoise color for headers */
+        margin-bottom: 5px; /* Add spacing below the header */
+    }
+
+    /* Contact Section */
+    .contact-box {
+        padding: 10px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 12px;
+    }
+
+    .send-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    /* Footer */
+    .footer-divider .dots {
+        gap: 5px;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
+    }
+
+    /* General Box Heading and Paragraph Styling */
+    .gallery-box h2,
+    .video-box h2,
+    .features-box h2,
+    .contact-box h2,
+    .message-box h2 {
+        font-size: 24px; /* Even smaller heading size for mobile */
+    }
+
+    .gallery-box p,
+    .video-box .video-description p,
+    .features-box p,
+    .contact-box .contact-paragraph,
+    .message-paragraph {
+        font-size: 14px; /* Smaller paragraph size for mobile */
+        line-height: 1.4; /* Adjust line height for readability */
+    }
+
+    /* Further reduce padding inside boxes */
+    .gallery-box,
+    .video-box,
+    .features-box,
+    .contact-box,
+    .message-box {
+        padding: 15px; /* Reduce padding further for mobile screens */
+    }
+
+    /* Hero Section */
+    .hero {
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center-align content */
+        padding: 20px; /* Add padding for spacing */
+    }
+
+    .hero-content {
+        max-width: 100%; /* Full width for smaller screens */
+        text-align: center; /* Center-align text */
+        margin-bottom: 20px; /* Add spacing below the content */
+    }
+
+    .hero-image {
+        align-self: center; /* Center the image */
+        margin-top: 20px; /* Add spacing above the image */
+    }
+
+    .hero-image img {
+        max-width: 85%; /* Reduce image size for mobile */
+        height: auto; /* Maintain aspect ratio */
+
+    }
+
+    /* Video Box */
+    .video-box {
+        padding: 20px; /* Reduce padding inside the box */
+        min-height: auto; /* Remove the fixed minimum height */
+    }
+
+    .video-player {
+        max-width: 100%; /* Ensure the video is responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .video-description {
+        margin-top: 10px; /* Reduce space above the description */
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    /* Features Table */
+    .features-table {
+        display: grid; /* Use grid layout for the table */
+        grid-template-columns: 1fr; /* Single column layout */
+        gap: 10px; /* Space between rows */
+        border: none; /* Remove the outer border */
+    }
+
+    .features-table thead {
+        display: none; /* Hide the table header */
+    }
+
+    .features-table tbody {
+        display: grid; /* Use grid layout for the table body */
+        grid-template-columns: 1fr; /* Single column layout */
+    }
+
+    .features-table tr {
+        display: grid; /* Use grid layout for each row */
+        grid-template-columns: 1fr 1fr; /* Two columns for key-value pairs */
+        border: 1px solid #40E0D0; /* Add a border around each row */
+        border-radius: 10px; /* Optional rounded corners */
+        padding: 10px; /* Add padding inside each row */
+        background-color: #222533; /* Match the table's background color */
+    }
+
+    .features-table td {
+        padding: 10px; /* Add padding inside each cell */
+        border-bottom: 1px solid #40E0D0; /* Add a dividing line between cells */
+    }
+
+    .features-table td:nth-child(odd) {
+        font-weight: bold; /* Highlight the key column */
+        color: #40E0D0; /* Turquoise color for keys */
+    }
+
+    .features-table td:nth-child(even) {
+        color: #ffffff; /* White color for values */
+    }
+
+    .features-table tr:last-child td {
+        border-bottom: none; /* Remove the last border */
+    }
 }

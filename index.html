@@ -15,7 +15,14 @@
             <h1>Cyber Jeff</h1>
         </div>
         <nav class="menu">
-            <ul>
+            <!-- Burger Menu Checkbox -->
+            <input type="checkbox" id="burger-toggle" class="burger-toggle">
+            <label for="burger-toggle" class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="menu-list">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#video">Video</a></li>
                 <li><a href="#gallery">Gallery</a></li>
@@ -94,29 +101,19 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Neural Network Prognostication</td>
-                        <td>Utilizes advanced deep learning models to forecast trends and outcomes with 98.7% accuracy across multiple data streams.</td>
-                        <td>Online</td>
+                        <td data-label="Capability">Neural Network Prognostication</td>
+                        <td data-label="Description">Utilizes advanced deep learning models to forecast trends and outcomes.</td>
+                        <td data-label="Status">Online</td>
                     </tr>
                     <tr>
-                        <td>Quantum Entanglement Comms</td>
-                        <td>Maintains instantaneous, secure communication channels across any distance, bypassing conventional network limitations.</td>
-                        <td>Optimal</td>
+                        <td data-label="Capability">Quantum Entanglement Comms</td>
+                        <td data-label="Description">Maintains instantaneous, secure communication channels across any distance.</td>
+                        <td data-label="Status">Optimal</td>
                     </tr>
                     <tr>
-                        <td>Adaptive Heuristic Algorithms</td>
-                        <td>Dynamically refines problem-solving strategies based on real-time feedback and environmental variables.</td>
-                        <td>Synergized</td>
-                    </tr>
-                    <tr>
-                        <td>Reality Augmentation Interface</td>
-                        <td>Overlays contextual data and interactive elements onto user's perception field for enhanced decision-making.</td>
-                        <td>Calibrated</td>
-                    </tr>
-                    <tr>
-                        <td colspan="3" class="table-footer">
-                            A summary of CyberJeff's operational parameters and enhancements.
-                        </td>
+                        <td data-label="Capability">Adaptive Heuristic Algorithms</td>
+                        <td data-label="Description">Dynamically refines problem-solving strategies based on real-time feedback.</td>
+                        <td data-label="Status">Synergized</td>
                     </tr>
                 </tbody>
             </table>
@@ -160,10 +157,10 @@
                 <p>Digital Vanguard Solutions</p>
             </div>
             <div class="footer-right">
-                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.x.com" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com" class="social-icon"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
         <div class="footer-divider">
@@ -180,6 +177,5 @@
             <p>Designed in the digital forges of the Neo-Cyber Age.</p>
         </div>
     </footer>
-    <script src="components/scripts.js></script>
 </body>
 </html>
