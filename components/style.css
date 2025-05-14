@@ -19,6 +19,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* General Text Adjustments */
 body {
     font-family: "Orbitron", sans-serif;
@@ -92,7 +96,7 @@ header {
     text-underline-offset: 4px; /* Add spacing between text and underline */
     color: #62ebdd; /* Highlight the selected menu item */
 }
-
+/* Navigation Bar Styling */
 nav {
     display: flex;
     flex-direction: column;
@@ -131,7 +135,7 @@ nav a:hover {
 .hero-content h2 {
     font-size: 56px; /* Larger main title */
     margin-bottom: 10px;
-    background: linear-gradient(to right, #cc70fe, #007991); /* Gradient for text */
+    background: linear-gradient(to right, #b75fd2, #5578c2, #85D8CE, #085078); /* Gradient for text */
     -webkit-background-clip: text; /* Clip background to text */
     background-clip: text; /* Standard property */
     color: transparent; /* Make text transparent to show gradient */
@@ -252,7 +256,7 @@ nav a:hover {
 
 .gallery-box {
     position: relative;
-    padding: 30px; /* Padding inside the box */
+    padding: 80px 140px; /* Padding inside the box */
     border: 1px solid #800080; /* Purple border */
     border-radius: 15px; /* Curved edges for the box */
     background-color: #222533; /* Grey background for the box */
@@ -270,8 +274,43 @@ nav a:hover {
 .gallery-box p {
     font-size: 18px; /* Paragraph text size */
     color: #ffffff; /* Light text color */
-    margin-bottom: 30px; /* Space below the paragraph */
+    margin-bottom: 20px; /* Space below the paragraph */
     line-height: 1.6; /* Improve readability */
+}
+
+/* Gallery Container Styling */
+.gallery-container {
+    display: flex; /* Arrange items horizontally */
+    justify-content: center; /* Center the gallery */
+    gap: 20px; /* Space between gallery items */
+    position: relative; /* For positioning elements inside the container */
+}
+
+/* Gallery Item Styling */
+.gallery-item {
+    position: relative;
+    width: 250px; /* Set a fixed width for each image */
+    height: 250px; /* Set a fixed height for each image */
+    overflow: hidden; /* Hide overflowing content */
+    border: 1px solid #800080; /* Purple border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #222533; /* Background color for empty space */
+}
+
+.gallery-item img {
+    width: 100%; /* Make the image responsive */
+    height: 100%; /* Ensure the image fills the container */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+/* Hidden Image Styling */
+.hidden-image img {
+    opacity: 0; /* Hide the image initially */
+    transition: opacity 0.3s ease; /* Smooth transition for reveal */
+}
+
+.hidden-image:hover img {
+    opacity: 1; /* Reveal the hidden image on hover */
 }
 
 /* General Paragraph Styling for Boxes */
@@ -282,75 +321,11 @@ nav a:hover {
     font-family: "Kumbh Sans", sans-serif; /* Apply Kumbh Sans font */
     max-width: 800px; /* Set a uniform width for all paragraphs */
     margin: auto; /* Center the paragraph within its container */
+    margin-top: 20px; /* Space above the paragraph */
     text-align: center; /* Center-align the text */
     line-height: 1.6; /* Maintain readability */
     font-size: 18px; /* Ensure consistent font size */
     color: #ffffff; /* Light text color */
-}
-
-/* Carousel Styling */
-.carousel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    margin-bottom: 20px; /* Add space below the carousel */
-    overflow: hidden; /* Ensure only visible images are displayed */
-}
-
-.carousel-images {
-    display: flex;
-    transition: transform 0.5s ease; /* Smooth sliding effect */
-    width: calc(100% * 5); /* Set width to accommodate all images */
-}
-
-.carousel-item {
-    flex-shrink: 0; /* Prevent items from shrinking */
-    width: calc(100% / 3); /* Ensure 3 items are visible at a time */
-    display: flex; /* Use flexbox for alignment */
-    justify-content: center; /* Center the image horizontally */
-    align-items: center; /* Center the image vertically */
-    box-sizing: border-box; /* Include padding in width calculation */
-}
-
-.carousel-item img {
-    width: 100%; /* Ensure images fill their container */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: contain; /* Ensure the image fits within the container */
-    border: 1px solid #800080; /* Purple border for each image */
-    border-radius: 10px; /* Rounded corners for the images */
-    transition: transform 0.5s ease; /* Smooth transition for sliding */
-}
-
-.carousel-arrow {
-    position: absolute;
-    top: 50%; /* Align arrows vertically with the carousel */
-    transform: translateY(-50%); /* Center the arrows vertically */
-    background-color: #000000; /* Black background */
-    color: #ffffff; /* White arrow color */
-    border: 2px solid #800080; /* Purple border */
-    border-radius: 10px; /* Rounded corners */
-    width: 40px; /* Square shape */
-    height: 40px; /* Square shape */
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px; /* Arrow size */
-    z-index: 10; /* Ensure arrows are above the images */
-}
-
-.carousel-arrow.left-arrow {
-    left: -50px; /* Position the left arrow */
-}
-
-.carousel-arrow.right-arrow {
-    right: -50px; /* Position the right arrow */
-}
-
-.carousel-arrow:hover {
-    background-color: #800080; /* Purple fill on hover */
-    color: #ffffff; /* Keep the arrow white */
 }
 
 /* Features Section Styling */
@@ -701,19 +676,24 @@ nav a:hover {
 .footer-divider {
     margin: 20px 0; /* Space above and below the divider */
     position: relative;
+    text-align: center; /* Center-align the content */
 }
 
 .footer-divider .line {
     height: 2px; /* Thin purple line */
     background: linear-gradient(to right, #800080, transparent, #800080); /* Faded purple line */
-    margin-bottom: 10px; /* Space below the line */
+    position: relative; /* Position the line relative to the dots */
+    z-index: 1; /* Ensure the line is below the dots */
 }
 
 .footer-divider .dots {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Center the dots horizontally */
+    align-items: center; /* Align the dots vertically */
     gap: 20px; /* Space between dots */
+    position: relative; /* Position the dots relative to the line */
+    top: -10px; /* Move the dots up to sit on the line */
+    z-index: 2; /* Ensure the dots are above the line */
 }
 
 .footer-divider .dot {
