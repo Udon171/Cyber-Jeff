@@ -46,15 +46,19 @@ header {
 
 /* Sticky Header Styling */
 .sticky-header {
-    display: flex;
-    justify-content: space-between; /* Heading on the left, menu on the right */
-    align-items: center;
-    padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
-    color: #fff;
-    border-bottom: 1px solid #40E0D0; /* Thin turquoise line */
+    position: fixed; /* Fix the header at the top of the viewport */
+    top: 0; /* Align it to the top */
+    left: 0; /* Align it to the left */
+    width: 100%; /* Make it span the full width */
     z-index: 1000; /* Ensure it stays above other elements */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    color: #fff; /* White text color */
+    border-bottom: 1px solid #40E0D0; /* Thin turquoise line at the bottom */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Add a subtle shadow for depth */
+    padding: 10px 20px; /* Add padding for spacing */
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between heading and menu */
+    align-items: center; /* Center-align items vertically */
 }
 
 /* Header Title */
