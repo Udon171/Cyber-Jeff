@@ -204,7 +204,7 @@ nav a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 0 50px; /* Padding on the sides */
-    height: 768px; /* Increased height for a larger canvas */
+    height: 768px; /* Added height for a larger canvas */
     background: url("../assets/images/unique-background-pattern-design_1108393-635.avif ") repeat; /* Tiled background */
     background-size: 300px 300px; /* Keep the original size of the tiles */
     background-position: center; /* Center the background */
@@ -248,6 +248,7 @@ nav a:hover {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    text-decoration: none; /* Remove underline */
 }
 
 /* Hero Image and Blue Line */
