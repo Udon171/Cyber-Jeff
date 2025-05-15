@@ -51,7 +51,7 @@ Cyber-Jeff/
 
 1. Clone the repository:
    ```bash
-   git clone  https://udon171.github.io/Cyber-Jeff/
+   git clone  https://github.com/Udon171/Cyber-Jeff
    ```
 2. Open the index.html file in your browser.
 
@@ -75,3 +75,4 @@ We hope you enjoy this futuristic and responsive website. Feel free to contribut
 
 Let me know if you'd liked this design concept!
 
+https://udon171.github.io/Cyber-Jeff/
