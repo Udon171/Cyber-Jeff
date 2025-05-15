@@ -51,7 +51,7 @@ Cyber-Jeff/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/udon117/cyber-jeff.git
+   git clone  https://udon171.github.io/Cyber-Jeff/
    ```
 2. Open the index.html file in your browser.
 

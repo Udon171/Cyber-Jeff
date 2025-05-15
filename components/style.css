@@ -205,7 +205,7 @@ nav a:hover {
     align-items: center;
     padding: 0 50px; /* Padding on the sides */
     height: 768px; /* Added height for a larger canvas */
-    background: url("../assets/images/unique-background-pattern-design_1108393-635.avif ") repeat; /* Tiled background */
+    background: url("../assets/images/geo-of-squares.jpg") repeat; /* Tiled background */
     background-size: 300px 300px; /* Keep the original size of the tiles */
     background-position: center; /* Center the background */
     color: #fff; /* Ensure text is readable */
