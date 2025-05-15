@@ -100,10 +100,10 @@ This project was a rewarding experience, filled with challenges and learning opp
 ## 📜 Additional Resources
 
 - **Mind Map**:  
-  ![Mind Map](assets/images/CyberJeff%20Concept%20Storm.png)
+  ![Mind Map](assets/resources/CyberJeff%20Concept%20Storm.png)
 
 - **Wireframe Mockup**:  
-  [Wireframe PDF](assets/images/CyberJeff%20Wireframe%20design.pdf) 
+  [Wireframe PDF](assets/resources/CyberJeff%20Wireframe%20design.pdf) 
 
 ---
 
@@ -124,6 +124,24 @@ We hope you enjoy this futuristic and responsive website. Feel free to contribut
 View the fully built site here:  
 [Cyber Jeff Website](https://udon171.github.io/Cyber-Jeff/)
 
----
+#### Website Screenshots:
 
-Let me know if you have any constructive feedback!
+1. **Hero Section**  
+   ![Hero Section](assets/resources/Cyber-Jeff-Hero-Img.PNG)
+
+2. **Video Section**  
+   ![Video Section](assets/resources/Cyber-Jeff-video-Img.PNG)
+
+3. **Gallery Section**  
+   ![Gallery Section](assets/resources/Cyber-Jeff-Gallery-Img.PNG)
+
+4. **Features Section**  
+   ![Features Section](assets/resources/Cyber-Jeff-Feature-Img.PNG)
+
+5. **Contact Section**  
+   ![Contact Section](assets/resources/Cyber-Jeff-Contact-Img.PNG)
+
+6. **Mobile View**  
+   ![Mobile View](assets/resources/Cyber-Jeff-mobile-Img.PNG)
+
+---
