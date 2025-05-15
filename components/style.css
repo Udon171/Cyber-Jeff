@@ -243,15 +243,16 @@ nav a:hover {
 .discover-btn {
     padding: 15px 30px; /* Make the button "fatter" */
     font-size: 18px; /* Slightly larger button text */
-    margin: 20px; /* Space above the button */
+    margin-top: 20px; /* Increase space above the button */
+    margin-bottom: 0; /* No extra space below */
     color: #fff; /* White text color */
-     /* Gradient background */
+    /* Gradient background */
     background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border: none;
     cursor: pointer;
     border-radius: 5px;
     text-decoration: none; /* Remove underline */
-    
+    display: inline-block; /* Ensure margin-top is respected */
 }
 
 /* Hero Image and Blue Line */
@@ -1260,13 +1261,8 @@ body {
 /* For Screens Wider Than 1100px */
 @media (min-width: 1100px) {
     /* Hero Section */
-    .hero {
-        padding: 0 100px; /* Increase padding on the sides */
-        height: 900px; /* Slightly taller hero section */
-    }
-
     .hero-content {
-        max-width: 45%; /* Reduce the width of the text to keep it closer to the image */
+        max-width: 40%; /* Keep the text content closer to the image */
         text-align: left; /* Align text to the left for better readability */
     }
 
@@ -1288,89 +1284,12 @@ body {
     }
 
     .hero-image {
-        max-width: 50%; /* Limit the width of the image */
+        max-width: 50%; /* Increase the width of the image */
         margin: 0; /* Remove extra margins */
     }
 
     .hero-image img {
-        max-width: 500px; /* Slightly larger image */
-        max-height: 500px; /* Maintain aspect ratio */
-    }
-
-    /* Video Section */
-    .video-box {
-        padding: 40px 200px; /* Increase padding inside the video box */
-        max-width: 1200px; /* Limit the width of the video box */
-    }
-
-    .video-box h2 {
-        font-size: 48px; /* Larger heading */
-    }
-
-    .video-player {
-        max-width: 900px; /* Larger video player */
-    }
-
-    .video-description p {
-        font-size: 20px; /* Larger description text */
-    }
-
-    /* Gallery Section */
-    .gallery-box {
-        padding: 100px 160px; /* Increase padding inside the gallery box */
-        max-width: 1200px; /* Limit the width of the gallery box */
-    }
-
-    .gallery-box h2 {
-        font-size: 48px; /* Larger heading */
-    }
-
-    .gallery-box p {
-        font-size: 20px; /* Larger paragraph text */
-    }
-
-    .gallery-item {
-        width: 300px; /* Larger gallery items */
-        height: 300px; /* Maintain square aspect ratio */
-    }
-
-    /* Features Section */
-    .features-box {
-        padding: 40px; /* Increase padding inside the features box */
-        max-width: 1200px; /* Limit the width of the features box */
-    }
-
-    .features-box h2 {
-        font-size: 48px; /* Larger heading */
-    }
-
-    .features-table th,
-    .features-table td {
-        font-size: 20px; /* Larger table text */
-        padding: 20px; /* Increase padding inside table cells */
-    }
-
-    /* Contact Section */
-    .contact-box {
-        padding: 60px 200px; /* Increase padding inside the contact box */
-        max-width: 1200px; /* Limit the width of the contact box */
-    }
-
-    .contact-box h2 {
-        font-size: 48px; /* Larger heading */
-    }
-
-    .contact-box .contact-paragraph {
-        font-size: 20px; /* Larger paragraph text */
-    }
-
-    .form-group input,
-    .form-group textarea {
-        font-size: 18px; /* Larger input text */
-    }
-
-    .send-button {
-        font-size: 20px; /* Larger button text */
-        padding: 15px 30px; /* Larger button */
+        max-width: 700px; /* Make the image larger */
+        max-height: 700px; /* Maintain aspect ratio */
     }
 }
