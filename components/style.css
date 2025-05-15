@@ -236,12 +236,14 @@ nav a:hover {
 .hero-content p {
     font-size: 18px; /* Larger paragraph text */
     margin-bottom: 20px;
+    margin-top: 20px; /* Space above the paragraph */
 }
 
 /* Button Styling */
 .discover-btn {
     padding: 15px 30px; /* Make the button "fatter" */
     font-size: 18px; /* Slightly larger button text */
+    margin: 20px; /* Space above the button */
     color: #fff; /* White text color */
      /* Gradient background */
     background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -249,6 +251,7 @@ nav a:hover {
     cursor: pointer;
     border-radius: 5px;
     text-decoration: none; /* Remove underline */
+    
 }
 
 /* Hero Image and Blue Line */
