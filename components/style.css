@@ -1258,8 +1258,8 @@ body {
     }
 }
 
-/* For Screens Wider Than 1100px */
-@media (min-width: 1100px) {
+/* For Screens Wider Than 1358px */
+@media (min-width: 1358px) {
     /* Hero Section */
     .hero-content {
         max-width: 40%; /* Keep the text content closer to the image */
