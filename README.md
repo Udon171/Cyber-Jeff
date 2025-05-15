@@ -100,10 +100,10 @@ This project was a rewarding experience, filled with challenges and learning opp
 ## 📜 Additional Resources
 
 - **Mind Map**:  
-  ![Mind Map](assets/resources/cyberJeff%20concept%20storm.png)
+  ![Mind Map](assets/resources/Jeff%20concept%20storm.png)
 
 - **Wireframe Mockup**:  
-  [Wireframe PDF](assets/resources/cyberJeff%20wireframe%20design.pdff) 
+  [Wireframe PDF](assets/resources/Jeff%20wireframe%20design.pdf) 
 
 ---
 
@@ -127,21 +127,21 @@ View the fully built site here:
 #### Website Screenshots:
 
 1. **Hero Section**  
-   ![Hero Section](assets/resources/cyber-jeff-hero-img.PNG)
+   ![Hero Section](assets/resources/jeff-hero-img.PNG)
 
 2. **Video Section**  
-   ![Video Section](assets/resources/cyber-jeff-video-img.PNG)
+   ![Video Section](assets/resources/jeff-video-img.PNG)
 
 3. **Gallery Section**  
-   ![Gallery Section](assets/resources/cyber-jeff-gallery-img.PNG)
+   ![Gallery Section](assets/resources/jeff-gallery-img.PNG)
 
 4. **Features Section**  
-   ![Features Section](assets/resources/cyber-jeff-feature-img.PNG)
+   ![Features Section](assets/resources/jeff-feature-img.PNG)
 
 5. **Contact Section**  
-   ![Contact Section](assets/resources/cyber-Jeff-contact-img.PNG)
+   ![Contact Section](assets/resources/Jeff-contact-img.PNG)
 
 6. **Mobile View**  
-   ![Mobile View](assets/resources/cyber-jeff-mobile-img.PNG)
+   ![Mobile View](assets/resources/jeff-mobile-img.PNG)
 
 ---
