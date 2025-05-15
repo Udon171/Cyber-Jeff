@@ -8,6 +8,8 @@ Here’s a professional and comprehensive README.md file about this website:
 
 Welcome to **Cyber Jeff**, a state-of-the-art digital assistant website that seamlessly blends human intuition with cybernetic precision. This project showcases a sleek, responsive design optimized for desktop, tablet, and mobile devices.
 
+---
+
 ## 🌟 Features
 
 - **Hero Section**: Introduces Cyber Jeff with a captivating tagline and call-to-action button.
@@ -16,6 +18,8 @@ Welcome to **Cyber Jeff**, a state-of-the-art digital assistant website that sea
 - **Features Section**: A detailed table showcasing Cyber Jeff's core capabilities, dynamically adjusted for mobile view.
 - **Contact Section**: A secure and user-friendly contact form for inquiries.
 - **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices.
+
+---
 
 ## 📱 Responsive Design Highlights
 
@@ -29,11 +33,15 @@ Welcome to **Cyber Jeff**, a state-of-the-art digital assistant website that sea
 - **Desktop View**:
   - Full-width layout with balanced spacing and visuals.
 
+---
+
 ## 🚀 Technologies Used
 
 - **HTML5**: Semantic structure for better accessibility and SEO.
 - **CSS3**: Modern styling with media queries for responsiveness.
 - **Font Awesome**: Icons for social media links and visual enhancements.
+
+---
 
 ## 📂 File Structure
 
@@ -47,19 +55,57 @@ Cyber-Jeff/
 ├── index.html        # Main HTML file
 ```
 
+---
+
 ## 🖥️ How to View the Website
 
 1. Clone the repository:
    ```bash
-   git clone  https://github.com/Udon171/Cyber-Jeff
+   git clone https://github.com/Udon171/Cyber-Jeff
    ```
 2. Open the index.html file in your browser.
+
+---
 
 ## ✨ Key Design Choices
 
 - **Interactive Gallery**: Hidden images revealed on hover or long press for mobile users.
 - **Mobile-Friendly Navigation**: Burger menu for easy access to sections.
 - **Dynamic Table**: Headers displayed above content for better readability on smaller screens.
+
+---
+
+## 🌐 Website Resources Used
+
+Here are the resources that helped bring the Cyber Jeff website to life:
+
+- **Main Font**: [Google Fonts](https://fonts.google.com/selection)
+- **Gradient Elements**: [UI Gradients](https://uigradients.com/)
+- **Problem Solving (HTML Carousel)**: [W3Schools](https://www.w3schools.com/)
+- **Head Icon for Webpage**: [Icons8](https://icons8.com/icons/set/tech)
+- **Social Media Icons in Footer**: [Font Awesome](https://fontawesome.com/)
+- **Video and Images for Jeff**: [Kling AI](https://app.klingai.com/)
+
+---
+
+## 🧠 My Journey
+
+This project was a rewarding experience, filled with challenges and learning opportunities. Here's a memorable moment from the journey:
+
+> **Memorable Moment**:  
+> After implementing a carousel for the design using JavaScript, I pushed myself to explore all possible ways to achieve the same functionality using only HTML and CSS. However, I realized my design was unachievable with these methods. Adapting the design, I used this opportunity to create a static image set with a reveal element for the launch of a new character. Using hidden and hover effects to achieve this was fun and aligned well with the overall feel of the website.
+
+---
+
+## 📜 Additional Resources
+
+- **Mind Map**:  
+  ![Mind Map](assets/images/CyberJeff%20Concept%20Storm.png)
+
+- **Wireframe Mockup**:  
+  [Wireframe PDF](assets/images/CyberJeff%20Wireframe%20design.pdf) 
+
+---
 
 ## 📧 Contact
 
@@ -73,6 +119,11 @@ We hope you enjoy this futuristic and responsive website. Feel free to contribut
 
 ---
 
-Let me know if you'd liked this design concept!
+### 🌐 Live Website
 
-https://udon171.github.io/Cyber-Jeff/
+View the fully built site here:  
+[Cyber Jeff Website](https://udon171.github.io/Cyber-Jeff/)
+
+---
+
+Let me know if you have any constructive feedback!
