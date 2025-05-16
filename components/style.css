@@ -1050,7 +1050,7 @@ body {
 
     /* Hero Section */
     .hero-content h2 {
-        font-size: 30px !important; /* Smaller font size for titles */
+        font-size: 32px !important; /* Smaller font size for titles */
     }
 
     .hero-content h3 {
@@ -1179,7 +1179,7 @@ body {
         flex-direction: column; /* Stack content vertically */
         align-items: center; /* Center-align content */
         padding: 60px; /* Add padding for spacing */
-        margin-top: 50px !important; /* Space above the title, force override */
+        margin-top: 40px !important; /* Space above the title, force override */
     }
 
     .hero-content {
