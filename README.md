@@ -236,10 +236,10 @@ Form validation is implemented for required fields, and users are notified if su
   ![Mind Map](assets/resources/Jeff%20concept%20storm.png)
 
 - **Wireframe Mockup**:  
-  [Wireframe PDF](assets/resources/Jeff%20wireframe%20design.pdf) 
+  [Wireframe (PDF)](assets/resources/Jeff%20wireframe%20design.pdf) 
 
 - **Performance Characteristics**:  
-  [Cyber Jeff Performance Report (PDF)](assets/resources/cyber-jeff-performance-report.pdf)
+  [Performance Report (PDF)](assets/resources/cyber-jeff-performance-report.pdf)
 
 ---
 
