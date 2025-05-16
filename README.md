@@ -196,6 +196,34 @@ Several validation websites were used for a more comprehensive evaluation in fou
 
 ---
 
+## 🧩 UX Review
+
+### Usability
+Cyber Jeff is designed for intuitive navigation, with clear sectioning and a prominent burger menu for mobile users. Buttons and links are clearly labeled, and interactive elements provide visual feedback on hover or tap.
+
+### Performance
+The site uses optimized images and minimal external dependencies to ensure fast load times. CSS media queries and efficient layout choices help maintain smooth performance across devices and resolutions.
+
+### Accessibility
+Semantic HTML is used throughout, with proper heading structure and ARIA labels where appropriate. Color contrast meets WCAG standards, and navigation is accessible via keyboard. All images include descriptive alt text.
+
+### Functionality
+All core features—including navigation, video playback, gallery reveals, and external links—work as intended. The features table adapts responsively, and all interactive elements are tested for reliability. The contact form is present but requires server-side support for full functionality.
+
+### Design Consistency
+A unified color palette, consistent typography, and repeated UI patterns (such as button styles and card layouts) ensure a cohesive visual experience. Responsive breakpoints maintain this consistency across all device sizes.
+
+### User Feedback
+Interactive elements (buttons, links, gallery images) provide immediate visual feedback on hover, focus, or tap. Error messages are displayed for invalid form submissions, and successful interactions are visually confirmed.
+
+### Mobile Experience
+The layout adapts seamlessly to mobile devices, with touch-friendly controls, readable font sizes, and a collapsible navigation menu. Images and tables are optimized for smaller screens, ensuring no horizontal scrolling is required.
+
+### Error Handling
+Form validation is implemented for required fields, and users are notified if submission fails (e.g., due to unsupported server-side processing on GitHub Pages). Broken links and missing resources are minimized through thorough testing.
+
+---
+
 ## 📜 Additional Resources
 
 - **Mind Map**:  
