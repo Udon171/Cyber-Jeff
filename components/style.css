@@ -1291,7 +1291,7 @@ body {
     }
 
     .hero-image img {
-        max-width: 700px; /* Make the image larger */
-        max-height: 700px; /* Maintain aspect ratio */
+        max-width: 600px; /* Make the image larger */
+        max-height: 600px; /* Maintain aspect ratio */
     }
 }
