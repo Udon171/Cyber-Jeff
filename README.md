@@ -59,11 +59,67 @@ Cyber-Jeff/
 
 ## 🖥️ How to View the Website
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Udon171/Cyber-Jeff
-   ```
-2. Open the index.html file in your browser.
+### 1. Clone the Repository
+
+Open a terminal or command prompt and run:
+
+```bash
+git clone https://github.com/Udon171/Cyber-Jeff
+```
+
+This will download the project files into a folder named `Cyber-Jeff`.
+
+---
+
+### 2. Open the Project in Visual Studio Code
+
+1. Launch [Visual Studio Code](https://code.visualstudio.com/).
+2. Click **File > Open Folder...** and select the `Cyber-Jeff` folder you just cloned.
+3. You can now browse, edit, and manage the project files in VS Code.
+4. To preview the website, right-click `index.html` in the Explorer and select **Open with Live Server** (install the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) if needed), or simply open `index.html` in your browser.
+
+---
+
+### 3. View the Website Locally
+
+- Double-click the `index.html` file in the `Cyber-Jeff` folder to open it in your default web browser.
+- Alternatively, use the Live Server extension in VS Code for automatic reloads on file changes.
+
+---
+
+### 4. Uploading to a Web Hosting Provider
+
+To make your website publicly accessible, upload the files to a web hosting service. Here’s a general guide:
+
+#### a. Prepare Your Files
+
+- Ensure all files and folders (including `assets/`, `components/`, and `index.html`) are present in your project directory.
+
+#### b. Choose a Hosting Provider
+
+- Common options: [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/), [GitHub Pages](https://pages.github.com/), or traditional web hosts (e.g., Bluehost, HostGator).
+
+#### c. Upload Your Files
+
+**For FTP-based hosts:**
+1. Use an FTP client like [FileZilla](https://filezilla-project.org/).
+2. Connect to your hosting account using the credentials provided by your host.
+3. Upload all project files (not the parent folder) into the `public_html` or root directory.
+
+**For GitHub Pages:**
+1. Push your code to a GitHub repository.
+2. In your repository, go to **Settings > Pages**.
+3. Select the branch (usually `main` or `master`) and the root folder (`/`) as the source.
+4. Save and wait for GitHub Pages to deploy your site.
+
+**For Netlify or Vercel:**
+1. Sign up and log in.
+2. Click **New Site** and connect your GitHub repository, or drag and drop your project folder.
+3. Follow the prompts to deploy.
+
+---
+
+Your website should now be live! Refer to your hosting provider’s documentation for more detailed instructions or troubleshooting.
 
 ---
 
@@ -85,7 +141,8 @@ Here are the resources that helped bring the Cyber Jeff website to life:
 - **Head Icon for Webpage**: [Icons8](https://icons8.com/icons/set/tech)
 - **Social Media Icons in Footer**: [Font Awesome](https://fontawesome.com/)
 - **Video and Images for Jeff**: [Kling AI](https://app.klingai.com/)
-
+- **Video Editing**: [Canva](https://www.canva.com/)
+- **Assisted Coding**: [GitHub Copilot](https://github.com/features/copilot)
 ---
 
 ## 🧠 My Journey
@@ -94,6 +151,48 @@ This project was a rewarding experience, filled with challenges and learning opp
 
 > **Memorable Moment**:  
 > After implementing a carousel for the design using JavaScript, I pushed myself to explore all possible ways to achieve the same functionality using only HTML and CSS. However, I realized my design was unachievable with these methods. Adapting the design, I used this opportunity to create a static image set with a reveal element for the launch of a new character. Using hidden and hover effects to achieve this was fun and aligned well with the overall feel of the website.
+
+> When having an issue with my hero button that wouldnt give the margin settings i had applied to the page, so instead of using !important in inline HTML i kept in CSS and finaly found: display:inline-block;. The enforced the margin and fixed the issue with it too clase to the above paragragh.
+
+---
+
+## 🧪 Test Section
+
+### Internal Manual Testing
+
+This section documents manual testing performed both in person and online. For the online portion, the website was uploaded and accessed via its live pages to verify functionality.
+
+<div style="overflow-x:auto; font-size:1.15em;">
+
+| Date       | Item                   | Function/Feature                    | Pass/Fail |
+|------------|------------------------|-------------------------------------|-----------|
+| 2025-05-16 | Discover Button        | Opens Facebook profile in new tab   | Pass      |
+| 2025-05-16 | Burger Menu            | Opens/closes navigation menu        | Pass      |
+| 2025-05-16 | Gallery Hidden Image   | Reveals image on hover/press        | Pass      |
+| 2025-05-16 | Pop-out Website Links  | Opens external sites in new tab     | Pass      |
+| 2025-05-16 | Video Controls         | Play/pause/mute video               | Pass      |
+| 2025-05-16 | Features Table         | Responsive, headers above content   | Pass      |
+| 2025-05-16 | Form Button            | Submits contact form                | Fail      |
+| 2025-05-16 | Mobile Responsiveness  | Layout adapts to mobile devices     | Pass      |
+
+> **Note:**  
+> The "Form Button" test failed because the HTML5 feature used for form submission is not supported by GitHub Pages, resulting in an error. This functionality will work as intended when the site is uploaded to a personal web hosting provider that supports server-side form handling.
+
+</div>
+
+### External Testing
+
+Several validation websites were used for a more comprehensive evaluation in four main areas of modern web development: HTML validity, CSS standards, performance, and accessibility.
+
+- Screenshots ![img](assets/resources/w3c-html-checker.PNG) from [W3C HTML Validator](https://validator.w3.org/)
+
+- Screenshots ![img](assets/resources/w3c-css-checker.PNG) from [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+- Screenshots ![img](assets/resources/pagespeed-insights-checker.PNG) from [Lighthouse Accessibility Audit](https://web.dev/measure/)
+   - [Mobile Results](https://pagespeed.web.dev/analysis/https-udon171-github-io-Cyber-Jeff/teqg1zn5fv?form_factor=mobile)
+   - [Desktop Results](https://pagespeed.web.dev/analysis/https-udon171-github-io-Cyber-Jeff/teqg1zn5fv?form_factor=desktop)
+
+- Screenshots ![img](assets/resources/wave-checker.PNG) from [Wave Accessibility Tool](https://wave.webaim.org/)
 
 ---
 
@@ -145,3 +244,5 @@ View the fully built site here:
    ![Mobile View](assets/resources/jeff-mobile-img.PNG)
 
 ---
+```` 
+& Stay Frosty...
