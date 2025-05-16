@@ -873,6 +873,7 @@ body {
     .hero {
         height: auto; /* Allow height to adjust dynamically */
         padding: 20px;
+        margin-top: 40px !important; /* Space above the title, force override */
     }
 
     .hero-content {
@@ -1178,7 +1179,7 @@ body {
         flex-direction: column; /* Stack content vertically */
         align-items: center; /* Center-align content */
         padding: 60px; /* Add padding for spacing */
-        margin-top: 20px !important; /* Space above the title, force override */
+        margin-top: 50px !important; /* Space above the title, force override */
     }
 
     .hero-content {
