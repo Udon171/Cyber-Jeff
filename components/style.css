@@ -1049,7 +1049,7 @@ body {
 
     /* Hero Section */
     .hero-content h2 {
-        font-size: 28px;
+        font-size: 30px !important; /* Smaller font size for titles */
     }
 
     .hero-content h3 {
@@ -1177,7 +1177,8 @@ body {
     .hero {
         flex-direction: column; /* Stack content vertically */
         align-items: center; /* Center-align content */
-        padding: 20px; /* Add padding for spacing */
+        padding: 60px; /* Add padding for spacing */
+        margin-top: 20px !important; /* Space above the title, force override */
     }
 
     .hero-content {
