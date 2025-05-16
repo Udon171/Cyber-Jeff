@@ -147,12 +147,12 @@ Here are the resources that helped bring the Cyber Jeff website to life:
 
 ## 🧠 My Journey
 
-This project was a rewarding experience, filled with challenges and learning opportunities. Here's a memorable moment from the journey:
+This project was a rewarding experience, filled with challenges and learning opportunities. Here's a memorable moments from the journey:
 
-> **Memorable Moment**:  
+> **Memorable Moments**:  
 > After implementing a carousel for the design using JavaScript, I pushed myself to explore all possible ways to achieve the same functionality using only HTML and CSS. However, I realized my design was unachievable with these methods. Adapting the design, I used this opportunity to create a static image set with a reveal element for the launch of a new character. Using hidden and hover effects to achieve this was fun and aligned well with the overall feel of the website.
 
-> When having an issue with my hero button that wouldnt give the margin settings i had applied to the page, so instead of using !important in inline HTML i kept in CSS and finaly found: display:inline-block;. The enforced the margin and fixed the issue with it too clase to the above paragragh.
+> When having an issue with my hero button that wouldnt give the margin settings i had applied to the page, so instead of using !important in inline HTML i kept in CSS and finaly found: display:inline-block;. This enforced the margin and fixed the issue with it too clase to the above paragragh.
 
 ---
 
