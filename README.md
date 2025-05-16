@@ -40,6 +40,7 @@ Welcome to **Cyber Jeff**, a state-of-the-art digital assistant website that sea
 - **HTML5**: Semantic structure for better accessibility and SEO.
 - **CSS3**: Modern styling with media queries for responsiveness.
 - **Font Awesome**: Icons for social media links and visual enhancements.
+- **Icon8**: Browser icon for the site when viewed online.
 
 ---
 
@@ -48,11 +49,14 @@ Welcome to **Cyber Jeff**, a state-of-the-art digital assistant website that sea
 ```
 Cyber-Jeff/
 ├── assets/
-│   ├── images/       # Images used in the website
-│   ├── video/        # Video file for the video section
+│   ├── images/           # All image resources (gallery, hero, etc.)
+│   ├── video/            # Video files for the video section
+│   └── resources/        # Screenshots, mind map, wireframes, etc.
 ├── components/
-│   ├── style.css     # Main CSS file for styling
-├── index.html        # Main HTML file
+│   ├── style.css         # Main CSS stylesheet
+├── index.html            # Main HTML file (homepage)
+├── README.md             # Project documentation
+└── .gitignore            # Git ignore file
 ```
 
 ---
@@ -152,7 +156,7 @@ This project was a rewarding experience, filled with challenges and learning opp
 > **Memorable Moments**:  
 > After implementing a carousel for the design using JavaScript, I pushed myself to explore all possible ways to achieve the same functionality using only HTML and CSS. However, I realized my design was unachievable with these methods. Adapting the design, I used this opportunity to create a static image set with a reveal element for the launch of a new character. Using hidden and hover effects to achieve this was fun and aligned well with the overall feel of the website.
 
-> When having an issue with my hero button that wouldnt give the margin settings i had applied to the page, so instead of using !important in inline HTML i kept in CSS and finaly found: display:inline-block;. This enforced the margin and fixed the issue with it too clase to the above paragragh.
+> When having an issue with my hero button that wouldnt give the margin settings i had applied to the page, so instead of using !important in inline HTML i kept in CSS and finaly found: display:inline-block;. This enforced the margin and fixed the issue with it too close to the above paragragh.
 
 ---
 
@@ -174,6 +178,8 @@ This section documents manual testing performed both in person and online. For t
 | 2025-05-16 | Features Table         | Responsive, headers above content   | Pass      |
 | 2025-05-16 | Form Button            | Submits contact form                | Fail      |
 | 2025-05-16 | Mobile Responsiveness  | Layout adapts to mobile devices     | Pass      |
+| 2025-05-16 | Large Display Responsiveness | Layout adapts to large screens/desktops | Pass      |
+
 
 > **Note:**  
 > The "Form Button" test failed because the HTML5 feature used for form submission is not supported by GitHub Pages, resulting in an error. This functionality will work as intended when the site is uploaded to a personal web hosting provider that supports server-side form handling.
