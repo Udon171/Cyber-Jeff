@@ -231,15 +231,15 @@ This section documents manual testing performed both in person and online. For t
 
 Several validation websites were used for a more comprehensive evaluation in four main areas of modern web development: HTML validity, CSS standards, performance, and accessibility.
 
-- Screenshots ![img](assets/resources/w3c-html-checker.PNG) from [W3C HTML Validator](https://validator.w3.org/)
+- Screenshots ![img](docs/w3c-html-checker.PNG) from [W3C HTML Validator](https://validator.w3.org/)
 
-- Screenshots ![img](assets/resources/w3c-css-checker.PNG) from [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- Screenshots ![img](docs/w3c-css-checker.PNG) from [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-- Screenshots ![img](assets/resources/pagespeed-insights-checker.PNG) from [Lighthouse Accessibility Audit](https://web.dev/measure/)
+- Screenshots ![img](docs/pagespeed-insights-checker.PNG) from [Lighthouse Accessibility Audit](https://web.dev/measure/)
    - [Mobile Results](https://pagespeed.web.dev/analysis/https-udon171-github-io-Cyber-Jeff/teqg1zn5fv?form_factor=mobile)
    - [Desktop Results](https://pagespeed.web.dev/analysis/https-udon171-github-io-Cyber-Jeff/teqg1zn5fv?form_factor=desktop)
 
-- Screenshots ![img](assets/resources/wave-checker.PNG) from [Wave Accessibility Tool](https://wave.webaim.org/)
+- Screenshots ![img](docs/wave-checker.PNG) from [Wave Accessibility Tool](https://wave.webaim.org/)
 
 [Return to Index](#table-of-contents)
 
@@ -250,42 +250,42 @@ Several validation websites were used for a more comprehensive evaluation in fou
 Below are annotated screenshots highlighting key user experience features of the Cyber Jeff website:
 
 1. **Mobile Burger Menu & Labels**  
-   ![Mobile Burger Menu](assets/resources/CF-UX08.png)  
+   ![Mobile Burger Menu](docs/CF-UX08.png)  
    The burger menu provides a clear, accessible way for mobile users to open and close the navigation. Each menu item is labeled for easy identification, ensuring users can quickly find the section they need.
 
 
 2. **Menu Navigation**  
-   ![Navigation Menu](assets/resources/CF-UX07.png)  
+   ![Navigation Menu](docs/CF-UX07.png)  
    The navigation menu offers users a straightforward way to access all major sections of the site. Its clear structure and prominent placement ensure users can quickly find what they need, whether on desktop or mobile devices.
 
 
 3. **Hero Section**  
-   ![Hero Section](assets/resources/CF-UX06.png)  
+   ![Hero Section](docs/CF-UX06.png)  
    The hero section welcomes users with a bold heading and a call-to-action button, making it immediately clear what the site is about and inviting users to explore further.
 
 
 4. **Video Section**  
-   ![Video Section](assets/resources/CF-UX05.png)  
+   ![Video Section](docs/CF-UX05.png)  
    Users can watch a demonstration video directly on the site, with intuitive controls for play, pause, and volume, enhancing engagement and understanding.
 
 
 5. **Gallery Reveal**  
-   ![Gallery Reveal](assets/resources/CF-UX04.png)  
+   ![Gallery Reveal](docs/CF-UX04.png)  
    The gallery features interactive images that reveal additional content on hover or tap, providing a playful and engaging way to discover more about Cyber Jeff.
 
 
 5. **Contact Form**  
-   ![Contact Form](assets/resources/CF-UX03.png)  
+   ![Contact Form](docs/CF-UX03.png)  
    The contact form allows users to quickly send messages or inquiries. Required fields and clear labels help ensure successful communication.
 
 
 7. **Footer Social Links**  
-   ![Footer Social Links](assets/resources/CF-UX02.png)  
+   ![Footer Social Links](docs/CF-UX02.png)  
    Users can reach us easily by clicking on any of our social icons to add us to your network. Simple and direct access to our social presence.
 
 
 8. **Email for new direct email**  
-   ![Email Link](assets/resources/CF-UX01.png)  
+   ![Email Link](docs/CF-UX01.png)  
    The email link provides a direct way for users to contact us. When clicked, it opens the user's default email client with our address pre-filled, streamlining the process of sending feedback or inquiries. This ensures quick, hassle-free communication for users who prefer email over web forms.
 
 [Return to Index](#table-of-contents)
@@ -325,13 +325,13 @@ Form validation is implemented for required fields, and users are notified if su
 ## 📜 Additional Resources
 
 - **Mind Map**:  
-  ![Mind Map](assets/resources/Jeff%20concept%20storm.png)
+  ![Mind Map](docs/Jeff%20concept%20storm.png)
 
 - **Wireframe Mockup**:  
-  [Wireframe (PDF)](assets/resources/Jeff%20wireframe%20design.pdf) 
+  [Wireframe (PDF)](docs/Jeff%20wireframe%20design.pdf) 
 
 - **Performance Characteristics**:  
-  [Performance Report (PDF)](assets/resources/cyber-jeff-performance-report.pdf)
+  [Performance Report (PDF)](docs/cyber-jeff-performance-report.pdf)
 
 [Return to Index](#table-of-contents)
 
@@ -361,22 +361,22 @@ View the fully built site here:
 #### Website Screenshots:
 
 1. **Hero Section**  
-   ![Hero Section](assets/resources/jeff-hero-img.PNG)
+   ![Hero Section](docs/jeff-hero-img.PNG)
 
 2. **Video Section**  
-   ![Video Section](assets/resources/jeff-video-img.PNG)
+   ![Video Section](docs/jeff-video-img.PNG)
 
 3. **Gallery Section**  
-   ![Gallery Section](assets/resources/jeff-gallery-img.PNG)
+   ![Gallery Section](docs/jeff-gallery-img.PNG)
 
 4. **Features Section**  
-   ![Features Section](assets/resources/jeff-feature-img.PNG)
+   ![Features Section](docs/jeff-feature-img.PNG)
 
 5. **Contact Section**  
-   ![Contact Section](assets/resources/Jeff-contact-img.PNG)
+   ![Contact Section](docs/Jeff-contact-img.PNG)
 
 6. **Mobile View**  
-   ![Mobile View](assets/resources/jeff-mobile-img.PNG)
+   ![Mobile View](docs/jeff-mobile-img.PNG)
 
 [Return to Index](#table-of-contents)
 
