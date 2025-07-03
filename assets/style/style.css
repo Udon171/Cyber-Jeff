@@ -79,7 +79,7 @@ header {
     color: #ffffff; 
     font-size: 16px; 
     transition: color 0.3s ease; 
-
+}
 .menu a:hover {
     color: #40E0D0; 
 }
@@ -180,7 +180,7 @@ nav a {
     text-decoration: none;
     color: #333;
     padding: 10px;
-    transition: background 0.3s;
+    transition: 0.3s;
 }
 
 nav a:hover {
@@ -192,13 +192,13 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px; /* Padding on the sides */
-    height: 768px; /* Added height for a larger canvas */
-    background: url("../assets/images/geo-of-squares.jpg") repeat; /* Tiled background */
-    background-size: 300px 300px; /* Keep the original size of the tiles */
-    background-position: center; /* Center the background */
-    color: #fff; /* Ensure text is readable */
-    margin-bottom: 50px; /* Add bottom margin to the hero section */
+    padding: 0 50px; 
+    height: 768px; 
+    background: url("/assets/images/geo-of-squares.jpg") repeat; 
+    background-size: 300px 300px; 
+    background-position: center; 
+    color: #fff; 
+    margin-bottom: 50px; 
 }
 
 .hero-content {
@@ -491,7 +491,7 @@ nav a:hover {
 
 .features-table tr:nth-child(4) td:nth-child(3) {
     color: pink; 
-
+}
 .features-table .table-footer {
     font-style: italic; 
     background-color: #05172c; 
@@ -1190,7 +1190,7 @@ body {
     /* Video Box */
     .video-box {
         padding: 20px; 
-        min-height: auto; 
+        height: auto; 
     }
 
     .video-player {
