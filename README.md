@@ -21,6 +21,7 @@ Welcome to **Cyber Jeff**, a cutting-edge digital assistant website that blends 
       - [Instructions](#instructions)
       - [Feedback](#feedback)
     - [Hero](#hero)
+    - [Video](#Video)
     - [Reveal](#reveal)
     - [Table](#table)
     - [Form](#form)
@@ -146,6 +147,9 @@ Wireframes were created to plan the layout and structure of the website. They ar
 
 #### Hero
 - A bold hero section with a captivating tagline, high-quality image, and a call-to-action button to encourage exploration.
+
+#### Video
+- **Video Section**: Features an embedded demo video showcasing Cyber Jeff in action, allowing users to see its capabilities visually firsthand.
 
 #### Reveal
 - An interactive gallery section where images reveal additional content on hover (desktop) or tap (mobile), enhancing engagement.

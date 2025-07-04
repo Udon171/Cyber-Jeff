@@ -633,6 +633,45 @@ nav a:hover {
     text-align: center; 
 }
 
+/* Info Button Styling */
+.info-btn {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: color 0.2s;
+    color: #40E0D0;
+}
+
+.info-btn .fas.fa-info-circle {
+    font-size: 1em;
+    color: inherit;
+    transition: color 0.2s;
+    vertical-align: middle;
+}
+
+.info-btn:hover,
+.info-btn:focus {
+    color: #b75fd2;
+    outline: none;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.header-left h1 {
+    margin-right: 0.5em;
+    display: inline-block;
+}
+
 /* Message Section Styling */
 .message-section {
     padding: 70px 20px; 
@@ -668,6 +707,65 @@ nav a:hover {
 }
 
 .message-image {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 30px; 
+    border-radius: 10px; 
+}
+
+.return-button {
+    display: inline-block;
+    padding: 15px 30px; 
+    font-size: 18px; 
+    color: #ffffff; 
+    background-color: #800080; 
+    border: 1px solid #a020f0; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
+}
+
+.return-button:hover {
+    background-color: #a020f0; 
+    border-color: #ffffff; 
+}
+
+/* popup section styling */
+.popup-section {
+    padding: 70px 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; 
+    min-height: 100vh; 
+}
+
+.popup-box {
+    position: relative;
+    padding: 30px; 
+    border: 1px solid #800080; 
+    border-radius: 15px; 
+    background-color: #222533; 
+    text-align: center; 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.popup-box h2 {
+    font-size: 40px; 
+    color: #40E0D0; 
+    margin-bottom: 20px; 
+}
+
+.popup-paragraph {
+    font-size: 18px; 
+    color: #ffffff; 
+    margin-bottom: 30px; 
+    line-height: 1.6; 
+}
+
+.popup-image {
     max-width: 100%; 
     height: auto; 
     margin-bottom: 30px; 
