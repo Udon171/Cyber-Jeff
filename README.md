@@ -140,7 +140,7 @@ Wireframes were created to plan the layout and structure of the website. They ar
 - **Branding**: Displays the Cyber Jeff logo and tagline for brand consistency.
 
 ##### Instructions
-- A dedicated section or modal (accessible via the navigation menu) provides clear instructions on how to use Cyber Jeff’s features.
+- A dedicated modal (accessible via the info button) provides clear instructions on how to use Cyber Jeff’s features.
 
 ##### Feedback
 - A feedback link in the header directs users to the contact form or social media for sharing thoughts and suggestions.
@@ -241,10 +241,10 @@ Wireframes were created to plan the layout and structure of the website. They ar
   <div align="center"><img src="docs/CF-UX03.PNG" alt="Business Owner UX" style="max-width: 650px; width: 100%; display: block; margin: 1rem auto;" /></div>
 
 - **Casual User**: Mobile and desktop experiences were intuitive and responsive.  
-  <div align="center"><img src="docs/CF-UX08.PNG" alt="Casual User UX" style="max-width: 350px; width: 100%; display: block; margin: 1rem auto;" /></div>
+  <div align="center"><img src="docs/CF-UX08.PNG" alt="Casual User UX" style="max-width: 250px; width: 100%; display: block; margin: 1rem auto;" /></div>
 
 - **Developer**: README and file structure provided clear documentation for contribution.  
-  <div align="center"><img src="docs/CF-UX02.PNG" alt="Developer UX" style="max-width: 450px; width: 100%; display: block; margin: 1rem auto;" /></div>
+  <div align="center"><img src="docs/CF-UX02.PNG" alt="Developer UX" style="max-width: 350px; width: 100%; display: block; margin: 1rem auto;" /></div>
 
 
 ### Feature Testing
