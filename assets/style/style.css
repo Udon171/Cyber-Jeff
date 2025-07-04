@@ -194,8 +194,8 @@ nav a:hover {
     align-items: center;
     padding: 0 50px; 
     height: 768px; 
-    background: url("/assets/images/geo-of-squares.jpg") repeat; 
-    background-size: 300px 300px; 
+    background: url("../images/geo-of-squares.webp") repeat; 
+    background-size: 350px 350px; 
     background-position: center; 
     color: #fff; 
     margin-bottom: 50px; 
