@@ -26,6 +26,7 @@ Welcome to **Cyber Jeff**, a cutting-edge digital assistant website that blends 
     - [Table](#table)
     - [Form](#form)
     - [Footer](#footer)
+    - [mobile](#mobile)
 - [Technologies Used](#technologies-used)
   - [Languages](#languages)
   - [Libraries](#libraries)
@@ -46,7 +47,7 @@ Welcome to **Cyber Jeff**, a cutting-edge digital assistant website that blends 
   - [To Deploy the Project](#to-deploy-the-project)
   - [To Fork the Project](#to-fork-the-project)
   - [To Clone the Project](#to-clone-the-project)
-  - [Images of Website Cyber-Jeff](#Images-of-Website-Cyber-Jeff)
+- [Visit Website](#visit-website-cyber-jeff)
 - [Credits](#credits)
 
 ---
@@ -142,26 +143,45 @@ Wireframes were created to plan the layout and structure of the website. They ar
 ##### Instructions
 - A dedicated modal (accessible via the info button) provides clear instructions on how to use Cyber Jeff’s features.
 
+![img](docs\instructions-icon.PNG)
+
 ##### Feedback
 - A feedback link in the header directs users to the contact form or social media for sharing thoughts and suggestions.
 
 #### Hero
 - A bold hero section with a captivating tagline, high-quality image, and a call-to-action button to encourage exploration.
+  
+  ![img](docs\jeff-hero-img.PNG)
 
 #### Video
 - **Video Section**: Features an embedded demo video showcasing Cyber Jeff in action, allowing users to see its capabilities visually firsthand.
+  
+  ![img](docs\jeff-video-img.PNG)
 
 #### Reveal
 - An interactive gallery section where images reveal additional content on hover (desktop) or tap (mobile), enhancing engagement.
+  
+  ![img](docs\jeff-gallery-img.PNG)
 
 #### Table
 - A features table showcasing Cyber Jeff’s capabilities, with headers dynamically displayed above content on mobile for clarity.
+  
+  ![img](docs\jeff-feature-img.PNG)
 
 #### Form
 - A contact form with required fields and client-side validation, allowing users to send inquiries (requires server-side support for full functionality).
+  
+  ![img](docs\jeff-contact-img.PNG)
 
 #### Footer
 - Contains social media icons (via [Font Awesome](https://fontawesome.com/)) linking to Cyber Jeff’s profiles, and an email link for direct contact.
+  
+  ![img](docs\jeff-footer-&-header.PNG)
+
+#### Mobile
+- The website layout adapts seamlessly to mobile devices, featuring a burger menu, touch-friendly interactions, and vertically stacked content for optimal usability.
+  
+  ![img](docs\jeff-mobile-img.PNG)
 
 [Return to Index](#contents)
 
@@ -302,21 +322,10 @@ Wireframes were created to plan the layout and structure of the website. They ar
 
 ---
 
-## Images of Website Cyber-Jeff
+## Visit Website Cyber Jeff
+Experience Cyber Jeff in action—explore the live site now!
 
-- Hero ![img](docs\jeff-hero-img.PNG)
-
-- Video ![img](docs\jeff-video-img.PNG)
-
-- Gallery ![img](docs\jeff-gallery-img.PNG)
-
-- Feature ![img](docs\jeff-feature-img.PNG)
-
-- Form ![img](docs\jeff-contact-img.PNG)
-
-- Footer ![img](docs\jeff-footer-&-header.PNG)
-
-- Mobile ![img](docs\jeff-mobile-img.PNG)
+👉 [Launch Cyber Jeff Website 🚀](https://udon171.github.io/Cyber-Jeff/)
 
 ---
 

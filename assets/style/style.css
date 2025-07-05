@@ -192,14 +192,24 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px; 
-    height: 768px; 
-    background: url("../images/geo-of-squares.webp") repeat; 
-    background-size: 350px 350px; 
-    background-position: center; 
-    color: #fff; 
-    margin-bottom: 50px; 
+    padding: 0 50px;
+    height: 768px;
 }
+
+.background-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 768px;
+    background-image: url('assets\images\geo-of-squares.webp');
+    background-repeat: repeat;
+    background-size: 350px 350px;
+    background-position: center;
+    color: transparent;
+    margin-bottom: 50px;
+}
+
 
 .hero-content {
     max-width: 50%;
