@@ -43,6 +43,8 @@ Welcome to **Cyber Jeff**, a cutting-edge digital assistant website that blends 
   - [Accessibility Testing](#accessibility-testing)
   - [Lighthouse Testing](#lighthouse-testing)
   - [Browser Testing](#browser-testing)
+  - [Informative Action](#informative-action)
+  - [Recomended Updates](#recommended-updates)
 - [Deployment](#deployment)
   - [To Deploy the Project](#to-deploy-the-project)
   - [To Fork the Project](#to-fork-the-project)
@@ -217,7 +219,10 @@ Wireframes were created to plan the layout and structure of the website. They ar
 
 ### Bugs Fixed
 - **Hero Button Margin Issue**: Initially, the hero button ignored margin settings. Resolved by applying `display: inline-block` in CSS, avoiding the use of `!important`.
-- **Form Submission Failure**: The contact form failed on GitHub Pages due to lack of server-side support. Noted as a limitation, with a recommendation to use a hosting provider with server-side processing.
+
+- **Form Submission Failure**: The contact form failed on GitHub Pages, HTML changed to `method="GET"` and removed `opener` function, meassge moved and re-named to success in turn this fixed the form issues.
+
+- **Discover His Capabilities Failure**: On GitHub Pages the first button in the hero lost its hover effect due to limitations of GitHub Pages (link still works fine).
 
 <div align="center" style="overflow-x:auto; font-size:1.15em;">
 
@@ -285,11 +290,22 @@ Wireframes were created to plan the layout and structure of the website. They ar
 - **Mobile Results**: [Link](https://pagespeed.web.dev/analysis/https-udon171-github-io-Cyber-Jeff/teqg1zn5fv?form_factor=mobile)
 - **Desktop Results**: [Link](https://pagespeed.web.dev/analysis/https-udon171-github-io-Cyber-Jeff/teqg1zn5fv?form_factor=desktop)
 - Screenshot: ![img](docs/pagespeed-insights-checker.PNG)
-- Scores: Performance (90+), Accessibility (95+), Best Practices (100), SEO (90+).
+- Scores: Performance (71), Accessibility (94), Best Practices (96), SEO (90+).
 
 ### Browser Testing
 - Tested on Chrome, Firefox, Safari, and Edge across Windows, macOS, iOS, and Android.
 - Results: Consistent rendering, functionality, and responsiveness across all browsers.
+
+### Informative Action
+A new performance report is available for review:
+
+- [Cyber Jeff Performance Report (PDF)](docs/cyber-jeff-performance-report.pdf)
+
+This report provides detailed insights into the website’s speed, accessibility, and overall user experience, including recommendations for further optimization. Reviewing this document will help maintain and improve the quality and performance of the Cyber Jeff website.
+
+### Recommended Updates
+- Convert all site image files from PNG to WebP format for improved performance.
+- Optimize the hero background image by reducing its resolution or embedding it directly in the HTML instead of using CSS.
 
 [Return to Index](#contents)
 
