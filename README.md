@@ -21,7 +21,7 @@ Welcome to **Cyber Jeff**, a cutting-edge digital assistant website that blends 
       - [Instructions](#instructions)
       - [Feedback](#feedback)
     - [Hero](#hero)
-    - [Video](#Video)
+    - [Video](#video)
     - [Reveal](#reveal)
     - [Table](#table)
     - [Form](#form)
@@ -145,7 +145,7 @@ Wireframes were created to plan the layout and structure of the website. They ar
 ##### Instructions
 - A dedicated modal (accessible via the info button) provides clear instructions on how to use Cyber Jeff’s features.
 
-![img](docs\instructions-icon.PNG)
+<div align="center"><img src="docs/instructions-icon.PNG" alt="info button of website" style="max-width: 650px; width: 100%; display: block; margin: 1rem auto;" /></div>
 
 ##### Feedback
 - A feedback link in the header directs users to the contact form or social media for sharing thoughts and suggestions.
@@ -153,38 +153,38 @@ Wireframes were created to plan the layout and structure of the website. They ar
 #### Hero
 - A bold hero section with a captivating tagline, high-quality image, and a call-to-action button to encourage exploration.
   
-  ![img](docs\jeff-hero-img.PNG)
+  <div align="center"><img src="docs/jeff-hero-img.PNG" alt="hero section of website" style="max-width: 650px; width: 100%; display: block; margin: 1rem auto;" /></div>
 
 #### Video
 - **Video Section**: Features an embedded demo video showcasing Cyber Jeff in action, allowing users to see its capabilities visually firsthand.
   
-  ![img](docs\jeff-video-img.PNG)
+  <div align="center"><img src="docs/jeff-video-img.PNG" alt="video section of website" style="max-width: 650px; width: 100%; display: block; margin: 1rem auto;" /></div>
 
 #### Reveal
 - An interactive gallery section where images reveal additional content on hover (desktop) or tap (mobile), enhancing engagement.
   
-  ![img](docs\jeff-gallery-img.PNG)
+  <div align="center"><img src="docs/jeff-gallery-img.PNG" alt="gallery section of website" style="max-width: 650px; width: 100%; display: block; margin: 1rem auto;" /></div>
 
 #### Table
 - A features table showcasing Cyber Jeff’s capabilities, with headers dynamically displayed above content on mobile for clarity.
   
-  ![img](docs\jeff-feature-img.PNG)
+  <div align="center"><img src="docs/jeff-feature-img.PNG" alt="feature section of website" style="max-width: 650px; width: 100%; display: block; margin: 1rem auto;" /></div>
 
 #### Form
 - A contact form with required fields and client-side validation, allowing users to send inquiries (requires server-side support for full functionality).
   
-  ![img](docs\jeff-contact-img.PNG)
+  <div align="center"><img src="docs/jeff-contact-img.PNG" alt="contact section of website" style="max-width: 650px; width: 100%; display: block; margin: 1rem auto;" /></div>
 
 #### Footer
 - Contains social media icons (via [Font Awesome](https://fontawesome.com/)) linking to Cyber Jeff’s profiles, and an email link for direct contact.
-  
-  ![img](docs\jeff-footer-&-header.PNG)
+
+  <div align="center"><img src="docs/jeff-footer-&-header.PNG" alt="footer of website" style="max-width: 650px; width: 100%; display: block; margin: 1rem auto;" /></div>
 
 #### Mobile
 - The website layout adapts seamlessly to mobile devices, featuring a burger menu, touch-friendly interactions, and vertically stacked content for optimal usability.
   
-  ![img](docs\jeff-mobile-img.PNG)
-
+  <div align="center"><img src="docs/jeff-mobile-img.PNG" alt="mobile menu of website" style="max-width: 650px; width: 100%; display: block; margin: 1rem auto;" /></div>
+  
 [Return to Index](#contents)
 
 ---
