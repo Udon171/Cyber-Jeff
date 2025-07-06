@@ -314,7 +314,7 @@ This report provides detailed insights into the website’s speed, accessibility
 ## Deployment
 
 ### To Deploy the Project
-1. **Prepare Files**: Ensure all files (`index.html`, `assets/`, `docs/`, `success.html/`) are in the project directory.
+1. **Prepare Files**: Ensure all files (`index.html`, `assets/`, `docs/`, `success.html/`, `popup.html/`) are in the project directory.
 2. **Choose a Hosting Provider**:
    - **GitHub Pages**: Push to a GitHub repository, go to **Settings > Pages**, select the `main` branch and `/` (root) folder, and save.
    - **Netlify/Vercel**: Create a new site, connect your GitHub repository or upload the project folder, and deploy.
